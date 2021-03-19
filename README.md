@@ -2,27 +2,27 @@
   <img src='static/logo.svg' width='36' height='36' />
   <h1>
     <a
-      href="https://github-profiles.gattuso.dev"
+      href="https://profiles.gattuso.dev"
       rel="_blank"
       rel="noopener noreferrer nofollow"
     >
-      GitHub Profiles
+      DevProfiles
     </a>
       </h1>
   <p align="center">
-    A spectacular view of your GitHub Profiles.
+    Find other devs using their GitHub profile.
   </p>
   <p align="center">
   <a
-    href="https://github.com/josephgattuso/github-profiles/blob/master/LICENSE"
+    href="https://github.com/josephgattuso/dev-profiles/blob/master/LICENSE"
   >
     <img
       alt="MIT License"
-      src="https://img.shields.io/github/license/josephgattuso/github-profiles"
+      src="https://img.shields.io/github/license/josephgattuso/dev-profiles"
     />
   </a>
     <a
-    href="https://github.com/josephgattuso/github-profiles/pulls"
+    href="https://github.com/josephgattuso/dev-profiles/pulls"
   >
   <img
     alt="Pull requests welcome"
@@ -30,11 +30,11 @@
   />
   </a>
   <a
-    href="https://github.com/josephgattuso/github-profiles/commits/master"
+    href="https://github.com/josephgattuso/dev-profiles/commits/master"
   >
     <img
       alt="GitHub last commit"
-      src="https://img.shields.io/github/last-commit/josephgattuso/github-profiles?style=flat-square"
+      src="https://img.shields.io/github/last-commit/josephgattuso/dev-profiles?style=flat-square"
     />
   </a>
   <a
@@ -48,6 +48,8 @@
   </a>
 </p>
 </div>
+
+![cover](static/og.png)
 
 ## 🚀 Getting started
 

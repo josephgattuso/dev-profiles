@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Router from "next/router";
 import styled from "styled-components";
 import { MarkGithubIcon } from "@primer/octicons-react";
-import Head from "../components/Head";
+import Head from "../components";
 import { theme, mixins } from "../styles";
 const { colors, fonts } = theme;
 
@@ -14,14 +14,17 @@ const StyledContainer = styled.div`
     ${colors.darkGrey} 100%
   );
   color: ${colors.offWhite};
+  display: flex;
+  align-items: center;
+  place-content: center;
   height: 100vh;
+  width: 100%;
 `;
 
 const StyledForm = styled.form`
   background: transparent;
   border-radius: 5px;
   padding: 2rem;
-  margin-bottom: 20vh;
   max-width: 600px;
   text-align: center;
 `;
@@ -35,6 +38,7 @@ const StyledLabel = styled.label`
   font-size: 2.5rem;
   font-weight: 500;
   margin: 2rem;
+  max-width: 600px;
 `;
 
 const StyledInput = styled.input`
@@ -43,13 +47,14 @@ const StyledInput = styled.input`
   border: 0;
   color: ${colors.lightblue};
   font-family: ${fonts.mono};
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   margin: 0 auto;
   padding: 1rem;
   outline: 0;
   text-align: center;
   width: 100%;
+  min-width: 400px;
   max-width: 500px;
 `;
 
@@ -59,7 +64,7 @@ export default function Home() {
 
   return (
     <main>
-      <Head title="GitHub Profiles" />
+      <Head title="DevProfiles" />
       <StyledContainer>
         <StyledForm
           onSubmit={(e) => {
@@ -71,11 +76,11 @@ export default function Home() {
           }}
         >
           <StyledIcon size="large" />
-          <StyledLabel htmlFor="username">Find Your GitHub Profile</StyledLabel>
+          <StyledLabel htmlFor="username">DevProfiles</StyledLabel>
           <StyledInput
             name="username"
             type="text"
-            placeholder="username"
+            placeholder="Enter a GitHub profile"
             onChange={handleChange}
           />
         </StyledForm>

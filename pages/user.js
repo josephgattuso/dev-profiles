@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import Head from "../components/Head";
+import Head from "../components";
 import { theme, mixins } from "../styles";
 const { colors, fonts } = theme;
 
@@ -16,13 +16,19 @@ const StyledContainer = styled.div`
   height: 100vh;
 `;
 
+const StyledTitle = styled.h1`
+  font-size: 3rem;
+  color: ${colors.lightblue};
+  font-weight: 400;
+`;
+
 export default function User(props) {
   const username = props.query.id;
   return (
     <main>
-      <Head title="GitHub Profiles" />
+      <Head title="DevProfiles" />
       <StyledContainer>
-        <h1>{username}</h1>
+        <StyledTitle>{username}</StyledTitle>
       </StyledContainer>
     </main>
   );

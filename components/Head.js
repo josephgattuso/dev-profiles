@@ -2,10 +2,10 @@ import React from "react";
 import NextHead from "next/head";
 import PropTypes from "prop-types";
 
-const defaultTitle = "GitHub Profiles";
-const defaultDescription = "A nicer look at GitHub profiles.";
-const defaultOGURL = "https://github-profiles.gattuso.dev";
-const defaultOGImage = "https://github-profiles.gattuso.dev/static/og.png";
+const defaultTitle = "DevProfiles";
+const defaultDescription = "Find other devs using their GitHub profile.";
+const defaultOGURL = "https://profiles.gattuso.dev";
+const defaultOGImage = "https://profiles.gattuso.dev/static/og.png";
 
 const Head = (props) => (
   <NextHead>
@@ -40,7 +40,7 @@ const Head = (props) => (
       href="/static/favicons/safari-pinned-tab.svg"
       color="#1a1e22"
     />
-    <meta name="msapplication-TileColor" content="#1A1E22" />
+    <meta name="msapplication-TileColor" content="#1a1e22" />
     <meta name="theme-color" content="#0070f3" />
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || defaultTitle} />
@@ -55,7 +55,7 @@ const Head = (props) => (
       name="twitter:description"
       content={props.description || defaultDescription}
     />
-    <meta name="twitter:creator" content={"@joeetuso2021-03-19 18:03:14"} />
+    <meta name="twitter:creator" content={"@joeetuso"} />
     <meta name="twitter:title" content={props.title || defaultTitle} />
     <meta property="og:image" content={props.ogImage || defaultOGImage} />
     <meta property="og:image:width" content="1200" />
