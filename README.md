@@ -1,10 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align='center'>
+  <img src='static/logo.svg' width='36' height='36' />
+  <h1>
+    <a
+      href="https://github-profiles.gattuso.dev"
+      rel="_blank"
+      rel="noopener noreferrer nofollow"
+    >
+      GitHub Profiles
+    </a>
+      </h1>
+  <p align="center">
+    A spectacular view of your GitHub Profiles.
+  </p>
+  <p align="center">
+  <a
+    href="https://github.com/josephgattuso/github-profiles/blob/master/LICENSE"
+  >
+    <img
+      alt="MIT License"
+      src="https://img.shields.io/github/license/josephgattuso/github-profiles"
+    />
+  </a>
+    <a
+    href="https://github.com/josephgattuso/github-profiles/pulls"
+  >
+  <img
+    alt="Pull requests welcome"
+    src="https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat-square"
+  />
+  </a>
+  <a
+    href="https://github.com/josephgattuso/github-profiles/commits/master"
+  >
+    <img
+      alt="GitHub last commit"
+      src="https://img.shields.io/github/last-commit/josephgattuso/github-profiles?style=flat-square"
+    />
+  </a>
+  <a
+    target="_blank"
+    href="https://twitter.com/intent/follow?screen_name=joeetuso"
+  >
+    <img
+      alt="Twitter Follow"
+      src="https://img.shields.io/twitter/follow/joeetuso?style=flat-square"
+    />
+  </a>
+</p>
+</div>
 
-## Getting Started
+## 🚀 Getting started
 
 First, run the development server:
 
-```bash
+```sh
 npm run dev
 # or
 yarn dev
@@ -12,23 +61,14 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📚 Resources
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Chart.js](https://www.chartjs.org/) - Simple, clean and engaging HTML5 based JavaScript charts.
+- [GitHub Polyglot](https://github.com/IonicaBizau/node-gh-polyglot) - Get language stats about GitHub users and repositories.
+- [Next.js Deployment](https://nextjs.org/docs/deployment) - the easiest way to deploy your Next.js app.
+- [Next.js Docs](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Next.js Learning](https://nextjs.org/learn) - An interactive Next.js tutorial.
+- [Next.js Repo](https://github.com/vercel/next.js/) - Open-source GitHub repository.
+- [React Flip Move](https://github.com/joshwcomeau/react-flip-move) - Effortless animation between DOM changes using the FLIP technique.
+- [Styled Components](https://styled-components.com/) - Use the best bits of ES6 and CSS to style your apps without stress.
+- [Vercel Platform](https://vercel.com) - from the creators of Next.js.
