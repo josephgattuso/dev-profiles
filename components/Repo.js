@@ -96,7 +96,15 @@ const Repos = ({ repoData }) => {
                     </div>
                     <div className="repo__stats">
                       <div className="repo__stats--left">
-                        <span>{repo.language}</span>
+                        <span>
+                          <div
+                            className="language"
+                            style={{
+                              backgroundColor: langColors[repo.language],
+                            }}
+                          />
+                          {repo.language}
+                        </span>
                         <span>
                           <StarIcon />
                           {repo.stargazers_count.toLocaleString()}
