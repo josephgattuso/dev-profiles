@@ -6,7 +6,9 @@
       DevProfiles
     </a>
   </h1>
-  <p align="center">Find other devs using their GitHub profile.</p>
+  <p align="center">
+    Search for any GitHub profile and return key information using the GitHub API. Built with Next.js and Styled Components
+  </p>
   <p align="center">
     <a href="https://github.com/josephgattuso/dev-profiles/blob/main/LICENSE">
       <img alt="MIT License"
