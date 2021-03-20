@@ -1,6 +1,7 @@
 import App from "next/app";
 import React from "react";
 import { ThemeProvider } from "styled-components";
+import { Corner } from "../components";
 import { theme, GlobalStyle } from "../styles";
 
 class MyApp extends App {
@@ -20,6 +21,7 @@ class MyApp extends App {
       <ThemeProvider theme={theme}>
         <>
           <GlobalStyle />
+          <Corner />
           <Component {...pageProps} />
         </>
       </ThemeProvider>
