@@ -5,13 +5,13 @@ import {
   CalendarIcon,
   LocationIcon,
 } from "@primer/octicons-react";
-import Octicon, { Briefcase, Calendar, Location } from "@primer/octicons-react";
+import StyledUserInfo from "./styles/UserInfoStyles";
 import { Section } from "../styles";
 
 const UserInfo = ({ userData }) => (
   <Section dark>
     {userData && (
-      <div>
+      <StyledUserInfo>
         {userData.avatar_url && (
           <div className="avatar">
             <img src={userData.avatar_url} alt="avatar" />
@@ -59,6 +59,7 @@ const UserInfo = ({ userData }) => (
             </span>
           )}
         </div>
+      </StyledUserInfo>
     )}
   </Section>
 );
