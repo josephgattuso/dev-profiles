@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Router from "next/router";
 import styled from "styled-components";
 import { MarkGithubIcon } from "@primer/octicons-react";
-import Head from "../components";
+import { Head } from "../components";
 import { theme, mixins } from "../styles";
 const { colors, fonts } = theme;
 
