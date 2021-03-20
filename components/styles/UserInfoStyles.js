@@ -7,7 +7,6 @@ const StyledUserInfo = styled.div`
   flex-direction: column;
   margin-bottom: 30px;
   text-align: center;
-  min-height: 100vh;
 
   ${media.bp600`
     padding-top: 4rem;
@@ -68,6 +67,45 @@ const StyledUserInfo = styled.div`
 
       svg {
         margin-right: 10px;
+      }
+    }
+  }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 150px));
+    grid-gap: 0.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+    &__item {
+      ${mixins.flexCenter};
+      flex-direction: column;
+      background: ${colors.darkGrey};
+      padding: 1rem;
+      border-radius: 0.25rem;
+      text-align: center;
+      ${media.bp400`
+        padding: 1rem 0.5rem;
+      `};
+
+      .num {
+        color: ${colors.offWhite};
+        font-size: 1.5rem;
+        ${media.bp400`
+          font-size: 1.5rem;
+        `};
+      }
+
+      .num-label {
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        letter-spacing: 1px;
+        margin-top: 0.75rem;
+        color: rgba(200, 255, 255, 0.7);
+        ${media.bp400`
+          font-size: 0.5rem;
+        `}
       }
     }
   }
