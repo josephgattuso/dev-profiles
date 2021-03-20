@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { Head, UserInfo } from "../components";
+import { Head, UserInfo, Repos } from "../components";
 import GhPolyglot from "gh-polyglot";
 import { theme, mixins } from "../styles";
 const { colors, fonts } = theme;
@@ -102,6 +102,8 @@ export default function User(props) {
           <Head title="DevProfiles" />
 
           {userData && <UserInfo userData={userData} />}
+
+          {repoData && <Repos repoData={repoData} />}
         </>
       )}
     </main>
