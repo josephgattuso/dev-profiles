@@ -1,52 +1,31 @@
-<div align='center'>
-  <img src='static/logo.svg' width='36' height='36' />
+<div align="center">
+  <img src="static/favicons/apple-touch-icon.png" width="36" height="36" />
   <h1>
-    <a
-      href="https://profiles.gattuso.dev"
-      rel="_blank"
-      rel="noopener noreferrer nofollow"
-    >
+    <a href="https://profiles.gattuso.dev" rel="_blank"
+      rel="noopener noreferrer nofollow">
       DevProfiles
     </a>
-      </h1>
+  </h1>
+  <p align="center">Find other devs using their GitHub profile.</p>
   <p align="center">
-    Find other devs using their GitHub profile.
+    <a href="https://github.com/josephgattuso/dev-profiles/blob/main/LICENSE">
+      <img alt="MIT License"
+        src="https://img.shields.io/badge/license-MIT-green?style=flat-square" />
+    </a>
+    <a href="https://github.com/josephgattuso/dev-profiles/pulls">
+      <img alt="Pull requests welcome"
+        src="https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat-square" />
+    </a>
+    <a href="https://github.com/josephgattuso/dev-profiles/commits/main">
+      <img alt="GitHub last commit"
+        src="https://img.shields.io/github/last-commit/josephgattuso/dev-profiles?style=flat-square" />
+    </a>
+    <a target="_blank"
+      href="https://twitter.com/intent/follow?screen_name=joeetuso">
+      <img alt="Twitter Follow"
+        src="https://img.shields.io/twitter/follow/joeetuso?style=flat-square" />
+    </a>
   </p>
-  <p align="center">
-  <a
-    href="https://github.com/josephgattuso/dev-profiles/blob/master/LICENSE"
-  >
-    <img
-      alt="MIT License"
-      src="https://img.shields.io/github/license/josephgattuso/dev-profiles"
-    />
-  </a>
-    <a
-    href="https://github.com/josephgattuso/dev-profiles/pulls"
-  >
-  <img
-    alt="Pull requests welcome"
-    src="https://img.shields.io/badge/PRs-welcome-blue.svg?style=flat-square"
-  />
-  </a>
-  <a
-    href="https://github.com/josephgattuso/dev-profiles/commits/master"
-  >
-    <img
-      alt="GitHub last commit"
-      src="https://img.shields.io/github/last-commit/josephgattuso/dev-profiles?style=flat-square"
-    />
-  </a>
-  <a
-    target="_blank"
-    href="https://twitter.com/intent/follow?screen_name=joeetuso"
-  >
-    <img
-      alt="Twitter Follow"
-      src="https://img.shields.io/twitter/follow/joeetuso?style=flat-square"
-    />
-  </a>
-</p>
 </div>
 
 ![cover](static/og.png)
