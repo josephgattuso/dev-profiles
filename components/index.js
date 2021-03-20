@@ -1,3 +1,4 @@
 import Head from "./Head";
+import UserInfo from "./UserInfo";
 
-export default Head;
+export { Head, UserInfo };
