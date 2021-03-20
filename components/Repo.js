@@ -18,7 +18,7 @@ const Repos = ({ repoData }) => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const getTopRepos = (type) => {
-    const LIMIT = 8;
+    const LIMIT = 12;
     const map = {
       stars: "stargazers_count",
       forks: "forks_count",
@@ -96,15 +96,7 @@ const Repos = ({ repoData }) => {
                     </div>
                     <div className="repo__stats">
                       <div className="repo__stats--left">
-                        <span>
-                          <div
-                            className="language"
-                            style={{
-                              backgroundColor: langColors[repo.language],
-                            }}
-                          />
-                          {repo.language}
-                        </span>
+                        <span>{repo.language}</span>
                         <span>
                           <StarIcon />
                           {repo.stargazers_count.toLocaleString()}
