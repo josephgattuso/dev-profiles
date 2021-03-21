@@ -1,4 +1,5 @@
 import langColors from "./langColors";
+import buildChart from "./buildChart";
 
 const backgroundColor = [
   "rgba(255, 99, 132, 0.7)",
@@ -18,4 +19,4 @@ const borderColor = [
   "rgba(255, 159, 64, 1)",
 ];
 
-export { langColors, backgroundColor, borderColor };
+export { langColors, backgroundColor, borderColor, buildChart };
