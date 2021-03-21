@@ -1,8 +1,7 @@
 <div align="center">
-  <img src="static/favicons/apple-touch-icon.png" width="36" height="36" />
+  <img src="static/github.svg" width="48" height="48" />
   <h1>
-    <a href="https://profiles.gattuso.dev" rel="_blank"
-      rel="noopener noreferrer nofollow">
+    <a href="https://profiles.gattuso.dev" target="_blank" rel="noopener noreferrer nofollow">
       DevProfiles
     </a>
   </h1>
