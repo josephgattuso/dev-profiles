@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { buildChart, langColors, backgroundColor, borderColor } from "../utils";
+import ChartStyles from "./styles/ChartStyles";
 import { Section } from "../styles";
 
 const Charts = ({ langData, repoData }) => {
@@ -122,18 +123,16 @@ const Charts = ({ langData, repoData }) => {
 
   return (
     <Section>
-      <div>
+      <ChartStyles>
         <div className="chart">
           <header>
             <h2>Top Languages</h2>
           </header>
-
           <div className="chart-container">
             {langChartError && <p>Nothing to see here!</p>}
             <canvas id="langChart" width={chartSize} height={chartSize} />
           </div>
         </div>
-
         <div className="chart">
           <header>
             <h2>Most Starred</h2>
@@ -143,7 +142,6 @@ const Charts = ({ langData, repoData }) => {
             <canvas id="starChart" width={chartSize} height={chartSize} />
           </div>
         </div>
-
         <div className="chart">
           <header>
             <h2>Stars per Language</h2>
@@ -153,7 +151,7 @@ const Charts = ({ langData, repoData }) => {
             <canvas id="thirdChart" width={chartSize} height={chartSize} />
           </div>
         </div>
-      </div>
+      </ChartStyles>
     </Section>
   );
 };
