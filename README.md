@@ -1,13 +1,12 @@
 <div align="center">
-  <img src="static/favicons/apple-touch-icon.png" width="36" height="36" />
+  <img src="static/github.svg" width="48" height="48" />
   <h1>
-    <a href="https://profiles.gattuso.dev" rel="_blank"
-      rel="noopener noreferrer nofollow">
+    <a href="https://profiles.gattuso.dev" target="_blank" rel="noopener noreferrer nofollow">
       DevProfiles
     </a>
   </h1>
   <p align="center">
-    Search for any GitHub profile and return key information using the GitHub API. Built with Next.js and Styled Components
+    Search for developer profiles using the GitHub API.
   </p>
   <p align="center">
     <a href="https://github.com/josephgattuso/dev-profiles/blob/main/LICENSE">
